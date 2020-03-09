@@ -2,9 +2,10 @@ package parser
 
 import (
 	"fmt"
-	"github.com/robertkrimen/otto/ast"
 	"reflect"
 	"testing"
+
+	"github.com/Hatch1fy/otto/ast"
 )
 
 func checkComments(actual []*ast.Comment, expected []string, position ast.CommentPosition) error {

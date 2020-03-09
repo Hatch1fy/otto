@@ -1,6 +1,6 @@
 # file
 --
-    import "github.com/robertkrimen/otto/file"
+    import "github.com/Hatch1fy/otto/file"
 
 Package file encapsulates the file abstractions used by the ast & parser.
 
